@@ -1,12 +1,6 @@
-body {
-    background-color: pink;
-}
+
 .header {
     background-color: rgb(79, 8, 8);
-}
-
-.header h1 {
-    color: #ccc;
 }
 
 * {
@@ -33,10 +27,15 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(167, 134, 139);
 }
 
 .main {
     flex: 1 0 auto;
+    padding: 1em;
+    margin: auto;
+    max-width: 900px;
+    background-color: white;
 }
 
 .header, .footer {
@@ -53,7 +52,10 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 2em 2em 1em;
+}
+.logo {
+    width: 30%;
 }
 
 @media (max-width: 767px) {
@@ -69,11 +71,14 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: white;
 }
 
 .title p {
     font-style: italic;
+}
+.nav a {
+    color: white;
 }
 
 /* Footer */
@@ -81,11 +86,15 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    padding: 1em;
+    background-color: rgb(79, 8, 8);
+    color: white;
+    min-height: 50px;
 }
 
 .footer a {
-    color: #222;
+    color: white;
+    padding: 1em;
 }
 
 .footer .social {
@@ -115,6 +124,16 @@ img {
     max-width: 100%;
 }
 
+.main img {
+    padding: 0.6em;
+    margin: 1em;
+    box-shadow: 10px 10px 5px rgb(189, 187, 187);
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+}
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
