@@ -1,0 +1,150 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+.header {
+    background-color: $background-alternative-color
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 1em;
+    margin: auto;
+    max-width: 900px;
+    background-color: $background-alternative-2-color
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 2em 2em 2em 1em;
+}
+.logo {
+    width: 30%;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: $background-alternative-color;
+    color: $font-alternative-color;
+    min-height: 50px;
+}
+
+.footer a {
+    color: $font-alternative-color;
+    padding: 1em;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: $font-color;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.title * {
+    color: $font-alternative-color;
+}
+
+.title p {
+    font-style: italic;
+}
+.nav a {
+    color: $font-alternative-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main img {
+    padding: 0.6em;
+    margin: 1em;
+    box-shadow: 10px 10px 5px rgb(189, 187, 187);
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+}
+
