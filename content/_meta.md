@@ -5,4 +5,7 @@ Social:
     - title: Link till sidans github repo.
       url: https://github.com/Mariarut14/design
       icon: fab fa-github
+    - title: Link till Google.
+      url: https://google.se
+      icon: fab fa-google
 ---

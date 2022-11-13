@@ -1,0 +1,16 @@
+/* Figure */ 
+
+img {
+    max-width: 100%;
+}
+
+.main img {
+    padding: 0.6em;
+    margin: 1em;
+    box-shadow: 10px 10px 5px rgb(189, 187, 187);
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+}
