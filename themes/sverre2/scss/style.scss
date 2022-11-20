@@ -1,0 +1,59 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'typography';
+@import 'figure';
+@import 'header';
+@import 'footer';
+@import 'blockquotes';
+@import 'code';
+@import 'technologies';
+@import 'technology';
+@import 'mobile-menu';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 64rem;
+    background-color: $background-alternative-2-color;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}

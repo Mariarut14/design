@@ -1,0 +1,174 @@
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0 1em;
+}
+
+.nav a,
+.nav-toggle {
+    color: $font-alternative-color;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 20%;
+    }
+
+    .copyright {
+        p {
+            font-size: 0.7em;
+        }
+    }
+
+    .main {
+        $base-font-size: 0.7em;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px;
+
+        h1 {
+            grid-column: span 1;
+        }
+    
+        .item {
+            max-width: 100%;
+
+            h1 {
+                font-size: 1em;
+            }
+        }
+
+        .css {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
+        .html {
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+
+        .javascript {
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+        }
+
+        .php {
+            grid-column: 1 / 2;
+            grid-row: 5 / 6;
+        }
+
+        .python {
+            grid-column: 1 / 2;
+            grid-row: 6 / 7;
+        }
+
+        .git {
+            grid-column: 1 / 2;
+            grid-row: 7 / 8;
+        }
+
+        .sqlite {
+            grid-column: 1 / 2;
+            grid-row: 8 / 9;
+        }
+
+    
+    }
+    
+    .container2 {
+
+        grid-template-columns: 1fr;
+
+        .content {
+            width: 100%;
+        }
+
+        pre code {
+            font-size: 14px;
+        }
+
+        .side-bar {
+            display: none;
+        }
+
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 0.2em;
+    }
+
+    .container2 {
+        .content {
+            grid-column-start: 1;
+            padding: 0.2em;
+
+            pre {
+                padding: 0.2em;
+            }
+
+            pre code {
+                font-size: 8px;
+                white-space: pre-wrap;
+            }
+        }
+    }
+}
