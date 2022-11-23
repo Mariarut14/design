@@ -48,7 +48,7 @@
     }
     
     .item:hover {
-        box-shadow: 10px 10px 5px 0 rgb(204, 204, 204);
+        box-shadow: 10px 10px 5px 0 $shadow-color;
     }
 }
 
@@ -74,7 +74,7 @@
         background-color: $accent-color;
         padding-top: 0.5em;
         margin: 0%;
-        opacity: 0.6;
+        opacity: 0.8;
         transform: rotate(-30deg);
     }
 }

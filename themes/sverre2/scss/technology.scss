@@ -8,10 +8,10 @@
     
     .side-bar {
         grid-column-start: 1;
-        background-color: rgb(209, 209, 209);
+        background-color: $accent-color;
         padding: 2em;
         padding-top: 3em;
-        box-shadow: 5px 5px 3px 0 #ccc;
+        box-shadow: 5px 5px 3px 0 $shadow-color;
     }
 
     .content {

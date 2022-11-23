@@ -37,7 +37,7 @@ h6 {
 }
 
 .title * {
-    color: $font-alternative-color;
+    color: $font-color;
 }
 
 .title p {
@@ -47,3 +47,16 @@ h6 {
 .nav-toggle {
     color: $font-alternative-color;
 }
+
+a:link {
+    color: $link-color;
+}
+
+a:hover {
+    color: $link-hover-color;
+}
+
+a:visited {
+    color: $link-visited-color;
+}
+
