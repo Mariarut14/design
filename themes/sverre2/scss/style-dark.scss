@@ -8,6 +8,8 @@
 @import 'code';
 @import 'technologies';
 @import 'technology';
+@import 'analysis';
+@import 'analyse';
 @import 'mobile-menu';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -51,10 +53,13 @@ body {
     margin: 0 auto;
     max-width: 64rem;
     background-color: $background-alternative-2-color;
+    
     img {
-        filter: brightness(.7);
+        filter: brightness(0.7);
     }
-    .container img{
+
+    .container,
+    .container-3 img {
         filter: none;
     }
 }

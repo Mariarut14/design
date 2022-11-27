@@ -12,4 +12,4 @@ Jag heter Maria Ståhlbom och arbetar som matematik-lärare på en högstadiesko
 På fritiden gillar jag att läsa, sticka, plocka svamp och förstås vara med min familj.
 
 Den här webbsidan är ett projekt i kursen "Teknisk webbdesign och användbarhet" på BTH.
-<img src="%base_url%/assets/img/Maria2.jpg" alt='Bild på Maria' >
+<img src="image/Maria2.jpg" alt='Bild på Maria' >

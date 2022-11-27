@@ -13,7 +13,7 @@ Sedan jag var liten har jag spelat piano, både för mig själv och även till o
 En annan hobby jag har är att sticka och virka. Den hobbyn har utvecklats mer på senare tid. Det är en bra hobby eftersom man kan göra andra saker samtidigt som t.ex. titta på TV, prata med folk och lyssna på musik/ljudbok.
 
 <figure>
-    <img src="%base_url%/assets/img/vantar.jpg" alt='vantar' >
+    <img src="image/vantar.jpg" alt='vantar' >
 
     <figcaption>Ett av mina favorit-sticknings-objekt.</figcaption>
 </figure>

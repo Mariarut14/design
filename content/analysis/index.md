@@ -1,45 +1,21 @@
 ---
-Title: Technologies
-Description: Page about Technologies
-Template: technologies
+Title: Analysis
+Description: Page about Analysis
+Template: analysis
 ---
 
-<div class="item css">
-    <h1><a href="%base_url%?technology/css">CSS</a></h1>
-    <img src="%base_url%?assets/img/css.jpg">
-</div>
+<div class="subject colors"><a href="%base_url%?analysis/01_colors">
+    <h1>Colors</h1>
+    <img src="image/colors.jpg">
+</a></div>
 
-<div class="item html">
-    <h1><a href="%base_url%?technology/html">HTML</a></h1>
-    <img src="%base_url%?assets/img/html.jpg">
+<div class="subject load"><a href="%base_url%?analysis/02_load">
+    <h1>Load</h1>
+    <img src="image/load.jpg">
+</a></div>
 
-</div>
+<div class="subject design"><a href="%base_url%?analysis/03_design_principles">
+    <h1>Design principles</h1>
+    <img src="image/design.jpg">
+</a></div>
 
-<div class="item javascript">
-    <h1><a href="%base_url%?technology/javascript">Javascript</a></h1>
-    <img src="%base_url%?assets/img/js.jpg">
-
-</div>
-
-<div class="item php">
-    <h1><a href="%base_url%?technology/php">PHP</a></h1>
-    <img src="%base_url%?assets/img/php.jpg">
-
-</div>
-
-<div class="item python">
-    <h1><a href="%base_url%?technology/python">Python</a></h1>
-    <img src="%base_url%?assets/img/python.jpg">
-
-</div>
-
-<div class="item git">
-<h1><a href="%base_url%?technology/git">Git</a></h1>    
-<img src="%base_url%?assets/img/git.jpg">
-
-</div>
-
-<div class="item sqlite">
-    <h1><a href="%base_url%?technology/sqlite">SQLite</a></h1>
-    <img src="%base_url%?assets/img/sqlite.jpg">
-</div>

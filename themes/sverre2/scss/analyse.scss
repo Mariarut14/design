@@ -1,0 +1,78 @@
+/* Analyse */ 
+
+.text {
+    max-width: 960px;
+    
+    .top-bar {
+        padding: 1em;
+        padding-top: 1em;
+    }    
+}
+
+.compare {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2em;
+    gap: 1em 1em;
+
+    .tui {
+        grid-column: 1 / 2;
+    }
+
+    .ving {
+        grid-column: 2 / 3;
+    }
+
+    .secret {
+        grid-column: 3 / 4;
+    }
+
+    img {
+        box-shadow: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
+.compare .item {
+    width: 100%;
+    background-color: $accent-color;
+    padding: 1em;
+
+    table {
+        border-spacing: 4px;
+        border-collapse: separate;   
+    }
+
+    td {
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+.horizontal-list {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+        display: inline-block;
+        width: 180px;
+        height: 40px;
+        background-color: $background-alternative-color;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+
+    li > a {
+        text-decoration: none;
+        margin-top: 10px;
+        line-height: 40px;
+
+    }
+
+    li:hover {
+        box-shadow: 5px 5px 3px 0 $shadow-color;
+    }
+}
