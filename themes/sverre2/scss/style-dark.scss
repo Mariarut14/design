@@ -10,6 +10,7 @@
 @import 'technology';
 @import 'analysis';
 @import 'analyse';
+@import 'gallery';
 @import 'mobile-menu';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -53,7 +54,7 @@ body {
     margin: 0 auto;
     max-width: 64rem;
     background-color: $background-alternative-2-color;
-    
+
     img {
         filter: brightness(0.7);
     }

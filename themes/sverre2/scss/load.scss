@@ -1,0 +1,24 @@
+/* load */
+
+.webbplats {
+    background-color: $accent-color;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+
+    h3 {
+        text-align: center;
+    }
+
+    img {
+        box-shadow: none;
+        display: block;
+        margin: auto;
+    }
+}
+
+.webbplats .iframe {
+    width: 100%;
+    min-height: 500px;
+    padding: 1em;
+}
