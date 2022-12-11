@@ -3,8 +3,7 @@ Title: About
 Description: Page about techniques used in this course
 ---
 
-Tekniker
-====================
+<h1 class="gradient-title">Tekniker</h1>
 
 I den här kursen använder vi oss av många olika tekniker och program. Här är en kortfattad beskrivning av dem:
 

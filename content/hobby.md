@@ -3,8 +3,8 @@ Title: Hobby
 Description: Page about my hobby
 ---
 
-Min hobby
-====================
+<h1 class="fade-title">Min hobby</h1>
+
 
 Jag har egentligen flera hobbies och det växlar vilken av dem jag ägnar mig åt mest.
 
@@ -12,8 +12,8 @@ Sedan jag var liten har jag spelat piano, både för mig själv och även till o
 
 En annan hobby jag har är att sticka och virka. Den hobbyn har utvecklats mer på senare tid. Det är en bra hobby eftersom man kan göra andra saker samtidigt som t.ex. titta på TV, prata med folk och lyssna på musik/ljudbok.
 
-<figure>
-    <img src="image/vantar.jpg" alt='vantar' >
+<figure class="center">
+    <img src="image/vantar.jpg?w=400" alt='vantar' >
 
     <figcaption>Ett av mina favorit-sticknings-objekt.</figcaption>
 </figure>

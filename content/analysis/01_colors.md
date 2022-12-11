@@ -26,7 +26,7 @@ Resultat
 <div class="compare">
 <div class="tui item">
 <h3>tui.se</h3>
-<img src="%base_url%?assets/img/tui.png">
+<img src="%base_url%?assets/img/tui.png" alt="tui">
 På tui.se har de använt de här färgerna:
 
 <table>
@@ -45,7 +45,7 @@ De har inte något dark-mode.
 
 <div class="ving item ">
 <h3>ving.se</h3>
-<img src="%base_url%?assets/img/ving.png">
+<img src="%base_url%?assets/img/ving.png" alt="ving">
 
 På ving.se har de använt de här färgerna:
 
@@ -65,7 +65,7 @@ De har inte något dark-mode.
 
 <div class="secret item">
 <h3>secretescapes.se</h3>
-<img src="%base_url%?assets/img/secretescapes.png">
+<img src="%base_url%?assets/img/secretescapes.png" alt="secret escapes">
 
 På secretescepes.se har de använt de här färgerna:
 

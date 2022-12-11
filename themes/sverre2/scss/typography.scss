@@ -45,7 +45,7 @@ h6 {
 }
 
 .nav-toggle {
-    color: $font-alternative-color;
+    color: $font-color;
 }
 
 a:link {
@@ -60,3 +60,42 @@ a:visited {
     color: $link-visited-color;
 }
 
+.fade-title {
+    width: 70%;
+    background-image: linear-gradient(to right, $accent-color, $background-alternative-2-color);
+} 
+
+.gradient-title {
+    width: 70%;
+    background-image: linear-gradient(to right, $accent-color, $background-alternative-2-color);
+}
+
+.horizontal-line {
+    border-top: 2px solid $accent-color;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.style-eight {
+    overflow: visible; /* For IE */
+    padding: 1em;
+    border-top: 5px double $accent-color;
+    color: $accent-color;
+    text-align: center;
+    clear: both;
+    width: 70%;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.style-eight::after {
+    content: '⁂';
+    display: inline-block;
+    position: relative;
+    top: -1.4em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: $background-alternative-2-color;
+}

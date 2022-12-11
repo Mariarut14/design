@@ -3,25 +3,6 @@
     transition: height 0.5s ease-in !important;
 }
 
-.nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
-    list-style: none;
-}
-
-.nav ul li {
-    padding: 0 1em;
-}
-
-.nav a,
-.nav-toggle {
-    color: $font-alternative-color;
-}
-
-.nav-toggle {
-    display: none;
-}
 
 @media (max-width: 799px) {
     .header {
@@ -65,7 +46,7 @@
     }
     
     .logo {
-        max-width: 20%;
+        width: 7em;
     }
 
     .copyright {
@@ -221,6 +202,10 @@
 @media (max-width: 600px) {
     .main {
         padding: 0.2em;
+    }
+
+    .logo {
+        width: 5em;
     }
 
     .container2 {

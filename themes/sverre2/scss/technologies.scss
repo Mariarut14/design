@@ -9,7 +9,10 @@
     
     h1 {
         grid-column: span 3;
-        justify-self: center;
+        width: 70%;
+        background-image: linear-gradient(to right, $accent-color, $background-alternative-2-color);
+        margin-bottom: 0.7em;
+
     }
 
     .css {

@@ -51,7 +51,7 @@ body {
 
 .main {
     flex: 1 0 auto;
-    padding: 1em;
+    padding: $magic-number;
     margin: 0 auto;
     max-width: 64rem;
     background-color: $background-alternative-2-color;
